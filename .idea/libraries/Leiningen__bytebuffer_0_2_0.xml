@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: bytebuffer:0.2.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/bytebuffer/bytebuffer/0.2.0/bytebuffer-0.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

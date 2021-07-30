@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: common-core:15.35.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/common-core/common-core/15.35.0/common-core-15.35.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
