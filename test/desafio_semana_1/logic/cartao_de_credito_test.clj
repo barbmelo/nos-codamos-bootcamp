@@ -7,8 +7,6 @@
                                                               lista-de-compras]]
             [desafio-semana-1.logic.db :as l.db]))
 
-;deveria criar outro
-;deveria usar schemas
 (def usuario (l.db/usuario))
 
 (deftest nova-compra-test
@@ -17,10 +15,8 @@
                       :valor           899
                       :estabelecimento "Latam Airlines"}]
 
-    (nova-compra usuario compra-teste)
-    (nu/tap usuario)
-    (is (= (get usuario :compras)
-           (conj aux.compras/lista-de-compras compra-teste)))))
+    (is (= (nova-compra usuario compra-teste)
+           {:compras (conj aux.compras/lista-de-compras compra-teste)}))))
 
 (deftest lista-de-compras-test
   (testing "Deve retornar as compras do usuário"

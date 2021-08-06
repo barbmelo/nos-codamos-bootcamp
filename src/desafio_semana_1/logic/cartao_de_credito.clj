@@ -8,6 +8,7 @@
        (reduce +)
        (str chave " ")))
 
+;Valor total por categoria
 (defn valor-total-por-categoria
   [usuario]
   (->> (get usuario :compras)
@@ -47,12 +48,9 @@
 ;Adicionar uma compra na lista de compras
 (defn nova-compra
   [usuario compra]
-  (println compra)
-  (println "lalala" (def usuario
-                      {:cadastro (get usuario :cadastro)
-                       :cartao   (get usuario :cartao)
-                       :compras  (conj (get usuario :compras) compra)}))
-  (println usuario))
+  (let [compras-ate-agora (get usuario :compras)
+        compras-atualizadas (conj compras-ate-agora compra)]
+    {:compras compras-atualizadas}))
 
 ;Lista de compras
 (defn lista-de-compras
