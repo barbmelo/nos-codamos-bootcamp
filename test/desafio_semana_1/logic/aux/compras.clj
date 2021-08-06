@@ -1,0 +1,31 @@
+(ns desafio-semana-1.logic.aux.compras)
+
+(def lista-de-compras
+  [{:categoria "Saúde"
+    :data "25/01/2022"
+    :estabelecimento "Drogasil"
+    :valor 27}
+   {:categoria "Saúde"
+    :data "29/01/2021"
+    :estabelecimento "Pharmapele"
+    :valor 437}
+   {:categoria "Educação"
+    :data "08/01/2021"
+    :estabelecimento "Udemy"
+    :valor 29}
+   {:categoria "Alimentação"
+    :data "25/01/2021"
+    :estabelecimento "Jolu Sushi"
+    :valor 54}
+   {:categoria "Alimentação"
+    :data "09/01/2021"
+    :estabelecimento "Parraxaxá"
+    :valor 564}
+   {:categoria "Educação"
+    :data "15/02/2021"
+    :estabelecimento "Cambly"
+    :valor 254}
+   {:categoria "Educação"
+    :data "14/02/2021"
+    :estabelecimento "Cambly"
+    :valor 254}])
