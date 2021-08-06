@@ -1,4 +1,6 @@
-# desafio-semana-1
+# Bootcamp Nós Codamos
+
+SEMANA 1
 
 **Criar um código em clojure que simula o cartão de crédito de um cliente**.
 
@@ -10,6 +12,16 @@ O que esse código precisa fazer?
 * Valor dos gastos agrupados por categoria;
 * Cálculo do valor da fatura do mês (opcional);
 * Busca de compras pelo valor ou estabelecimento (opcional).
+
+SEMANA 2
+
+**Escrever testes automatizados em clojure do código que simula o cartão de crédito de um cliente Nubank, desenvolvido na semana 01.**
+
+O que esse código precisa fazer?
+
+* Teste da função que adiciona uma compra na lista de compras realizadas;
+* Teste da função que lista as compras realizadas;
+* Teste da função que realiza o cálculo dos gastos agrupados por categoria.
 
 ## License
 
